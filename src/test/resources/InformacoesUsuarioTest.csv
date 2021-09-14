@@ -1,0 +1,12 @@
+testAdicionarUmaInformacaoAdicionalDoUsuario,tipo,contato,mensagem
+                                            ,Phone,5562992999121,Your contact has been added!
+                                            ,Phone,5562992999122,Your contact has been added!
+                                            ,Phone,5562992999123,Your contact has been added!
+                                            ,Phone,5562992999124,Your contact has been added!
+                                            ,E-mail,email001@gmail.com,Your contact has been added!
+                                            ,E-mail,email002@gmail.com,Your contact has been added!
+                                            ,E-mail,email003@gmail.com,Your contact has been added!
+
+removerUmContatoDeUmUsuario,contato,mensagem
+                           ,email004@gmail.com,"Rest in peace, dear email!"
+                           ,5562992999125,"Rest in peace, dear phone!"
