@@ -2,3 +2,6 @@ testAdicionarUmaInformacaoAdicionalDoUsuario,login,password,tipo,contato,mensage
                                             ,cassia0001,123456@,Phone,+556290232355,Your contact has been added!
                                             ,cassia0001,123456@,Phone,+556290232356,Your contact has been added!
                                             ,cassia0001,123456@,E-mail,cassia@gmail.com,Your contact has been added!
+removerUmContatoDeUmUsuario,login,password,tipo,contato,mensagemadd,mensagem
+                           ,cassia0001,123456@,E-mail,cassia@gmail.com,Your contact has been added!,"Rest in peace, dear email!"
+                           ,cassia0001,123456@,Phone,+556290232357,Your contact has been added!,"Rest in peace, dear phone!"

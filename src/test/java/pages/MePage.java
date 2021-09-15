@@ -19,4 +19,22 @@ public class MePage extends BasePage {
         return new AddMoreDataPage(navegador);
     }
 
+    public MePage localizarContato(String contato){
+        String caminho = "//span[text()=\""+contato+"\"]/following-sibling::a";
+        navegador.findElement(By.xpath(caminho)).click();
+        return this;
+    }
+
+    public MePage confirmarExlusao(){
+        //Confirmar a janela javascript
+        navegador.switchTo().alert().accept();
+        return this;
+    }
+
+    public MePage removerContato(String contato){
+        localizarContato(contato);
+        confirmarExlusao();
+        return this;
+    }
+
 }

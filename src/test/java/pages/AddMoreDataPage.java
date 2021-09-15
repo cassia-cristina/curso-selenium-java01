@@ -30,8 +30,7 @@ public class AddMoreDataPage extends BasePage {
     public MePage adicionarContato(String tipo, String contato){
         selecionarTipoContato(tipo);
         digitarContato(contato);
-        clicarSalvar();
-        return new MePage(navegador);
+        return clicarSalvar();
     }
 
 }
